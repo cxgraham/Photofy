@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+}
+
+.navbar a:hover{
+    color: rgb(172, 171, 171);
+}
+
+.nav-info{
+    display: flex;
+    align-items: center;
+}
+
+.no-bold{
+    font-weight: normal;
+}
+
+.nav-buttons{
+    display: flex;
+}
+
+#button1, #button2{
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#button1:hover, #button2:hover{
+    background-color:rgb(172, 171, 171);
+}
