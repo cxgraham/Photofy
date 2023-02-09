@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'photofy',
         'USER': os.environ.get('DATABASE_USER'),
         'PASSWORD': os.environ.get('PASSWORD'),
-        'HOST': 'database-1.chdbkjztsh8e.us-east-2.rds.amazonaws.com',
+        'HOST': 'database-1.chdbkjztsh8e.us-east-2.rds.amazonaws.com',    # RDS postgresql database
         'PORT': '5432'
     }
 }
