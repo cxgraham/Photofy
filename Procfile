@@ -1,1 +1,1 @@
-web: gunicorn PhotoAlbumApp.wsgi --log-file -
+web: gunicorn 'PhotoAlbumApp.wsgi'
