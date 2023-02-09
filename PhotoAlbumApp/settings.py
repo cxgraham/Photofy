@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'PhotoAlbumApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'photofy',
-        'USER': os.environ.get('DATABASE_USER'),
-        'PASSWORD': os.environ.get('PASSWORD'),
+        'NAME': os.environ.get('DB_NAME'),
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
         'HOST': 'database-1.chdbkjztsh8e.us-east-2.rds.amazonaws.com',    # RDS postgresql database
         'PORT': '5432'
     }
