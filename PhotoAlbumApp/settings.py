@@ -24,12 +24,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = ['127.0.0.1', 'photofy.up.railway.app'] 
 
-CSRF_TRUSTED_ORIGINS = ['https://photofy.up.railway.app','https://127.0.0.1']
+if not DEBUG:
+    CSRF_TRUSTED_ORIGINS = ['https://photofy.up.railway.app','https://127.0.0.1']
 
 # Application definition
 
