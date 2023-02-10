@@ -14,6 +14,9 @@
             <h5>{{username}}</h5>
         </div>
         <div class="nav-buttons">
+            <form action="{% url 'explore' %}">
+                <button type="submit" id="button1">Explore</button>
+            </form>
             <form action="{% url 'logout' %}">
                 <button type="submit" id="button2">Logout</button>
             </form>

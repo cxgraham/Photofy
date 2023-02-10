@@ -1,3 +1,4 @@
+from multiprocessing import context
 from django.shortcuts import render, redirect
 from django.contrib import messages
 
@@ -65,6 +66,15 @@ def homepage(request):
     }
     return render(request, 'homepage.html', context)
 
+def user_profile(request, id):
+    this_user = User.objects.get(id = request.session['user_id'])
+    user_profile = User.objects.get(id=id)
+    context = {
+        'username': this_user.username,
+        'user_profile': user_profile,
+    }
+    return render(request, 'user_profile.html', context)
+
 
 
 # PHOTO VIEWS 
@@ -95,6 +105,15 @@ def edit_photo(request, id):
         'form': form,
     }
     return render(request, 'view_photo.html', context)
+
+def view_all_photos(request):
+    all_photos = Photo.objects.all()
+    this_user = User.objects.get(id=request.session['user_id'])
+    context = {
+        'photos': all_photos,
+        'username': this_user.username,
+    }
+    return render(request, 'all_photos.html', context)
 
 def delete_photo(request, id):
     this_photo = Photo.objects.get(id=id)
