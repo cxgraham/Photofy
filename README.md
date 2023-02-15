@@ -29,6 +29,32 @@ information.
 
 <img width="1440" alt="Screen Shot 2023-02-14 at 7 38 36 PM" src="https://user-images.githubusercontent.com/101434571/218905323-b7f2d7c5-da29-4a53-be08-fa96fa819557.png">
 
-On this page, the user is able to view the photo's information, title, image link and privacy status, and the user has the option to update any information on 
-the picture 
-or have the option to 
+On this page, the user is able to view the photo's information, title, image link and privacy status, and the user has the option to update any information on the picture or they have the option to delete the photo completely.
+
+<img width="1440" alt="Screen Shot 2023-02-14 at 7 42 07 PM" src="https://user-images.githubusercontent.com/101434571/218905757-5c1403de-2358-4466-a644-b40cdd4224b2.png">
+
+To be directed back to the homepage, the title "Photofy" can also be used as a button to direct the user back to the homepage. 
+
+<img width="1440" alt="Screen Shot 2023-02-14 at 7 43 10 PM" src="https://user-images.githubusercontent.com/101434571/218905882-7eb5144a-73ae-45fe-b7e6-7028e42658fd.png">
+
+In order to view other users' pictures, the "explore" button next to the "logout" button in the navigation bar directs user to another page that hosts all
+images that have a privacy setting of "public". 
+
+<img width="1440" alt="Screen Shot 2023-02-14 at 7 44 45 PM" src="https://user-images.githubusercontent.com/101434571/218906045-15dc92a2-a279-46fb-be8f-d001425299c8.png">
+
+The explore page shares all photos that have been uploaded that have a privacy setting of public. The image also shows which user uploaded the image and
+their username is a link that directs the user to that user's profile/page. 
+
+<img width="1440" alt="Screen Shot 2023-02-14 at 7 46 39 PM" src="https://user-images.githubusercontent.com/101434571/218906385-7a8a4ad8-8ffd-4db3-a305-8a6516849c6e.png">
+
+Once the user is directed to another user's page, they are able to view that user's photos that are "public". The photos also include the title of the 
+image that the user added for said image. 
+
+<img width="1440" alt="Screen Shot 2023-02-14 at 7 48 11 PM" src="https://user-images.githubusercontent.com/101434571/218906638-07f815ba-d7fa-4af8-8676-4ceee5e17250.png">
+
+Once the user is done uploading photos or viewing other users' photos, the "logout" button in the navbar logs the user out, clearing the browser's session and directing the user back to the login screen. 
+
+<img width="1440" alt="Screen Shot 2023-02-14 at 7 50 44 PM" src="https://user-images.githubusercontent.com/101434571/218906933-e5f65599-bf48-4b46-b271-cdfd9101ce24.png">
+
+<img width="1440" alt="Screen Shot 2023-02-14 at 7 50 53 PM" src="https://user-images.githubusercontent.com/101434571/218906956-3a2d9c93-fd0d-4399-b281-1f801856d8b5.png">
+
